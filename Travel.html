@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus and Train Booking</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial;
+            text-align: center;
+        }
+        h1 {
+            background-color: navy;
+            color: white;
+            padding: 15px;
+        }
+        .box {
+            background-color: white;
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        input, select {
+            padding: 8px;
+            margin: 8px;
+            width: 80%;
+        }
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+        .card {
+            background-color: lightyellow;
+            margin: 15px;
+            padding: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: navy;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bus and Train Ticket Booking</h1>
+    <div class="box">
+        <h2>Booking Details</h2>
+        <form>
+            <label>Travel Type:</label><br>
+            <select>
+                <option>Bus</option>
+                <option>Train</option>
+            </select><br>
+            <label>Source:</label><br>
+            <input type="text" placeholder="Enter Source"><br>
+            <label>Destination:</label><br>
+            <input type="text" placeholder="Enter Destination"><br>
+            <label>Travel Date:</label><br>
+            <input type="date"><br>
+            <label>Passenger Name:</label><br>
+            <input type="text" placeholder="Enter Your Name"><br>
+            <label>Number of Passengers:</label><br>
+            <input type="number"><br>
+            <label>Select Seat:</label><br>
+            <select>
+                <option>Select Seat</option>
+                <option>Seat 1</option>
+                <option>Seat 2</option>
+                <option>Seat 3</option>
+                <option>Seat 4</option>
+            </select><br><br>
+            <button type="button">Search Tickets</button>
+        </form>
+        <h2>Available Services</h2>
+        <div class="card">
+            <h3>Bus Service</h3>
+            <p>Type: AC Sleeper</p>
+            <p>Departure: 9:00 AM</p>
+            <p>Arrival: 4:00 PM</p>
+            <p>Fare: Rs.800</p>
+            <button type="button">Book Bus</button>
+        </div>
+        <div class="card">
+            <h3>Train Service</h3>
+            <p>Type: Express Train</p>
+            <p>Departure: 10:00 AM</p>
+            <p>Arrival: 5:00 PM</p>
+            <p>Fare: Rs.500</p>
+            <button type="button">Book Train</button>
+        </div>
+        <h2>Ticket Fare Details</h2>
+        <table>
+            <tr>
+                <th>Transport</th>
+                <th>Type</th>
+                <th>Fare</th>
+            </tr>
+            <tr>
+                <td>Bus</td>
+                <td>AC Sleeper</td>
+                <td>Rs.800</td>
+            </tr>
+            <tr>
+                <td>Train</td>
+                <td>Express</td>
+                <td>Rs.500</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
