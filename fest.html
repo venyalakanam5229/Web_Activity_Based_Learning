@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Fest Management</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+            margin: 0;
+        }
+
+        h1 {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .navbar {
+            background-color: black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .banner {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin: 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: navy;
+        }
+
+        .events {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            width: 220px;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            border: 1px solid gray;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: navy;
+            color: white;
+        }
+
+        form {
+            background-color: white;
+            width: 80%;
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        input, select {
+            width: 95%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        footer {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .card {
+                width: 80%;
+            }
+
+            .navbar a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            form {
+                width: 85%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>COLLEGE FEST 2026</h1>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#events">Events</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#rules">Rules</a>
+        <a href="#register">Register</a>
+    </div>
+    <div class="banner">
+        <h2>Welcome to Our College Fest!</h2>
+        <h3>Celebrate Talent, Creativity and Knowledge</h3>
+        <p>Date: December 10 and 11, 2026</p>
+        <p>Join Us and Enjoy the Fest!</p>
+    </div>
+    <h2 id="events">Technical Events</h2>
+    <div class="events">
+        <div class="card">
+            <h3>Web Designing</h3>
+            <p>Create a creative website using HTML and CSS.</p>
+            <p>Coordinator: Ravi</p>
+            <button type="button">Register</button>
+        </div>
+        <div class="card">
+            <h3>Quiz Competition</h3>
+            <p>Test your technical knowledge.</p>
+            <p>Coordinator: Priya</p>
+            <button type="button">Register</button>
+        </div>
+        <div class="card">
+            <h3>Paper Presentation</h3>
+            <p>Present your innovative ideas.</p>
+            <p>Coordinator: Kiran</p>
+            <button type="button">Register</button>
+        </div>
+    </div>
+    <h2>Cultural Events</h2>
+    <div class="events">
+        <div class="card">
+            <h3>Dance Competition</h3>
+            <p>Show your dancing talent.</p>
+            <p>Coordinator: Anjali</p>
+            <button type="button">Register</button>
+        </div>
+        <div class="card">
+            <h3>Singing Competition</h3>
+            <p>Show your singing talent.</p>
+            <p>Coordinator: Sneha</p>
+            <button type="button">Register</button>
+        </div>
+        <div class="card">
+            <h3>Fashion Show</h3>
+            <p>Show your creative fashion ideas.</p>
+            <p>Coordinator: Rahul</p>
+            <button type="button">Register</button>
+        </div>
+    </div>
+    <h2>Workshops</h2>
+    <div class="events">
+        <div class="card">
+            <h3>Python Workshop</h3>
+            <p>Learn basic Python programming.</p>
+            <p>Coordinator: Arun</p>
+            <button type="button">Register</button>
+        </div>
+        <div class="card">
+            <h3>AI Workshop</h3>
+            <p>Learn about Artificial Intelligence.</p>
+            <p>Coordinator: Divya</p>
+            <button type="button">Register</button>
+        </div>
+    </div>
+    <h2 id="schedule">Event Schedule</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Date</th>
+        </tr>
+        <tr>
+            <td>9:00 AM</td>
+            <td>Web Designing</td>
+            <td>December 10</td>
+        </tr>
+        <tr>
+            <td>11:00 AM</td>
+            <td>Quiz Competition</td>
+            <td>December 10</td>
+        </tr>
+        <tr>
+            <td>1:00 PM</td>
+            <td>Dance Competition</td>
+            <td>December 11</td>
+        </tr>
+        <tr>
+            <td>3:00 PM</td>
+            <td>Singing Competition</td>
+            <td>December 11</td>
+        </tr>
+    </table>
+    <h2 id="rules">Event Rules</h2>
+    <div class="card" style="width:80%; margin:auto;">
+        <p>1. Students must carry their college ID cards.</p>
+        <p>2. Participants must register before the event.</p>
+        <p>3. Maintain discipline during the fest.</p>
+        <p>4. Follow the instructions of coordinators.</p>
+        <p>5. Participants must report on time.</p>
+    </div>
+    <h2 id="register">Student Registration Form</h2>
+    <form>
+        <label>Student Name:</label>
+        <input type="text" placeholder="Enter Your Name">
+        <label>College Name:</label>
+        <input type="text" placeholder="Enter College Name">
+        <label>Email:</label>
+        <input type="email" placeholder="Enter Email">
+        <label>Phone Number:</label>
+        <input type="tel" placeholder="Enter Phone Number">
+        <label>Select Event:</label>
+        <select>
+            <option>Choose Event</option>
+            <option>Web Designing</option>
+            <option>Quiz Competition</option>
+            <option>Dance Competition</option>
+            <option>Singing Competition</option>
+            <option>Python Workshop</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit Registration</button>
+    </form>
+    <footer>
+        <h3>Thank You for Visiting!</h3>
+        <p>College Fest 2026</p>
+        <p>All Rights Reserved</p>
+    </footer>
+</body>
+</html>
