@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Shopping Website</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightgray;
+            margin: 0;
+        }
+        h1 {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: black;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+        .banner {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin: 15px;
+        }
+        h2 {
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background-color: white;
+            width: 200px;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            border: 1px solid gray;
+        }
+        .card img {
+            width: 150px;
+            height: 150px;
+        }
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: darkgreen;
+        }
+        footer {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        @media screen and (max-width: 600px) {
+            .card {
+                width: 80%;
+            }
+           .navbar a {
+                display: inline-block;
+                margin: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>My Online Shopping Store</h1>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Categories</a>
+        <a href="#">Offers</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="banner">
+        <h2>Big Shopping Sale!</h2>
+        <p>Get Up To 50% Discount On Selected Products</p>
+    </div>
+    <h2>Our Products</h2>
+    <div class="products">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmaGLt9N6Ev7XsEsMV6Hz0Czp8EzPsBv7oH5qU2HPetw&s=10" alt="Mobile">
+            <h3>Mobile Phone</h3>
+            <p>Category: Electronics</p>
+            <p>Price: Rs.15000</p>
+            <p>Discount: 10%</p>
+            <p>Rating: 4.5/5</p>
+            <p>Good quality mobile phone.</p>
+            <button type="button">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://media.wired.com/photos/67e5bd328eceed9f2cae96f3/master/w_1600%2Cc_limit/Razer-Blade-16-2025-Laptop-(front)-Reviewer-Photo-SOURCE-Luke-Larsen.jpg" alt="Laptop">
+            <h3>Laptop</h3>
+            <p>Category: Electronics</p>
+            <p>Price: Rs.45000</p>
+            <p>Discount: 15%</p>
+            <p>Rating: 4.7/5</p>
+            <p>Best laptop for students.</p>
+            <button type="button">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://redtape.com/cdn/shop/files/RSO4692_6_8eacffa4-06cf-472a-83ac-0c50680969bf.jpg?v=1786537964&width=1500" alt="Shoes">
+            <h3>Shoes</h3>
+            <p>Category: Fashion</p>
+            <p>Price: Rs.2000</p>
+            <p>Discount: 20%</p>
+            <p>Rating: 4.3/5</p>
+            <p>Comfortable running shoes.</p>
+            <button type="button">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://cdn.eternz.com/thumbnails/products/2_35b02564_thumbnail_1024.jpg" alt="Watch">
+            <h3>Watch</h3>
+            <p>Category: Accessories</p>
+            <p>Price: Rs.1500</p>
+            <p>Discount: 25%</p>
+            <p>Rating: 4.2/5</p>
+            <p>Stylish wrist watch.</p>
+            <button type="button">Add to Cart</button>
+        </div>
+    </div>
+    <h2>Shopping Categories</h2>
+    <p style="text-align:center;">
+        Electronics | Fashion | Shoes | Watches
+    </p>
+    <footer>
+        <p>Thank You For Visiting Our Website</p>
+        <p>Copyright 2026 My Online Shopping Store</p>
+    </footer>
+</body>
+</html>
